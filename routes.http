@@ -1,0 +1,26 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "video bom do fey",
+    "description": "Video do tiktok",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/4e5fe7d9-548a-484c-95bf-577a1677d3f1
+Content-Type: application/json
+
+{
+    "title": "Qualquer titulo",
+    "description": "Um pequeno tutorial de como utilizar essa ferramenta",
+    "duration": 360
+}
+
+###
+DELETE http://localhost:3333/videos/4e5fe7d9-548a-484c-95bf-577a1677d3f1
